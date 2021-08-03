@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "Thousand Fast Fingers",
+    "version": "0.1",
+    "content_scripts": [{
+        "matches": ["https://10fastfingers.com/**"],
+        "js": ["content-script.js"]
+    }]
+}
